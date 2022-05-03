@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Travel around the World</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #FFE4C4;
+  padding: 40px;
+  text-align: center;
+  color:rgb(53, 26, 2);
+}
+
+/* Style the top navigation bar */
+.topnav {
+    
+  overflow: hidden;
+  background-color: #ad7836
+;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: outside;
+  color: #eee3e3
+;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* Footer */
+
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 15px;
+  background-color: #ad7836;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #faf8f3c0;
+  color: rgb(87, 63, 32);
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  color:rgb(63, 41, 1);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display:outside;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Plan your trip</h1>
+  <p> <marquee>Find hotel,homes and cities to visit</marquee> </p>
+</div>
+
+
+<div class="topnav">
+  <a href="https://www.booking.com/index.en-gb.html">Booking</a>
+  <a href="https://www.kayak.com">Kayak</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <font align="center"><h2>Videos</h2></font> 
+    
+    <font face="Times" size="4" color="black">
+    <marquee>Top 10 most beautiful Places to visit</marquee></font>
+    
+    <div align="center">
+    <video width="320" height="135" controls autoplay >
+  		<source src="Top 10 Most Beautiful Places In The World.mp4" type="video/mp4">
+ 	</video>
+ 	</div>
+ 	
+ 	<font face="Times" size="4" color="black">
+ 	<marquee>Into the nature</marquee></font>
+ 	<div align="center">
+ 	<video width="320" height="180" controls autoplay >
+  		<source src="into the nature.mp4" type="video/mp4">
+ 	</video>
+ 	</div>
+</div>
+  <div class="column">
+    <font align="center"><h2>Travel images</h2></font> 
+   			<div align="center">
+			<img border="5" alt="Picture1" src="1d276b5f0f51d42b737fa23b4122cf1a.jpg" hspace=20 vspace=20 width="140" height="160"> 
+			<img border="5" alt="Picture2" src="2b29d431c666b949fc840bc89f8d24ca.jpg" hspace=20 vspace=20 width="140" height="160"> 
+			<img border="5" alt="Picture3" src="c1f3a4b95db2d948b74fc98c7a284038.jpg" hspace=20 vspace=20 width="140" height="160">  
+			</div> 
+  </div>
+  <div class="column">
+    <font align="center"><h2>Windows</h2></font> 
+		
+	    <font face="Times" size="4" color="black">
+	 	<marquee>Booking</marquee></font>
+	    <div align="center"> 
+		<iframe src="https://www.booking.com/index.en-gb.html" width="400" height="200"> </iframe>
+		</div>		    
+    	<font face="Times" size="4" color="black">
+	 	<marquee>Kayak</marquee></font>
+
+	    <div align="center"> 
+		<iframe src="https://www.kayak.com/horizon/sem/kpack/general" width="400" height="200"> </iframe>
+		</div>
+    </div>
+    <div class="footer">
+      <p class="footer-text-right">
+        </p>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
